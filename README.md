@@ -1,6 +1,6 @@
 # 🎓 Hybrid RAG Research Assistant
 
-A lightweight, research-grade Retrieval Augmented Generation (RAG) system capable of **Cross-Lingual Retrieval (English/Japanese)**. 
+A lightweight, research-grade Retrieval Augmented Generation (RAG) system capable of **Cross-Lingual Retrieval (English/Japanese)**.
 
 Built to run efficiently on consumer hardware (2GB VRAM), this project implements a custom "Translation Bridge" architecture to solve the semantic gap between Japanese queries and English technical documentation.
 
@@ -42,7 +42,7 @@ Directory structure:
 project-root/
 │
 ├── data/
-│   └── content.pdf   ← Place your document here
+│ └── content.pdf ← Place your document here
 ```
 
 ⚠️ The file **must be named** `content.pdf`.
@@ -84,15 +84,15 @@ This will launch a local web application where you can:
 
 ## Example Workflow
 
-1. Upload `content.pdf` into the `data/` folder  
-2. Run the embedding pipeline  
-3. Launch the Streamlit app  
-4. Ask your questions  
+1. Upload `content.pdf` into the `data/` folder
+2. Run the embedding pipeline
+3. Launch the Streamlit app
+4. Ask your questions
 
 The system will:
-- Detect query language  
-- Translate if document/query languages differ  
-- Retrieve top-5 hybrid results  
-- Generate a context-grounded answer  
+- Detect query language
+- Translate if document/query languages differ
+- Retrieve top-5 hybrid results
+- Generate a context-grounded answer
 
 ---
