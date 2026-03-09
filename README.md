@@ -28,7 +28,7 @@ Built to run efficiently on consumer hardware (2GB VRAM), this project implement
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/imchaul/Multilingual-RAG-Project.git
+git clone https://github.com/Imchaul/Multilingual-RAG-Project.git
 cd hybrid-rag-research
 ```
 
