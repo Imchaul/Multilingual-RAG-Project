@@ -1,4 +1,4 @@
-# 🎓 Hybrid RAG Research Assistant
+#  Hybrid RAG Research Assistant
 
 A lightweight, research-grade Retrieval Augmented Generation (RAG) system capable of **Cross-Lingual Retrieval (English/Japanese)**.
 
@@ -6,7 +6,7 @@ Built to run efficiently on consumer hardware (2GB VRAM), this project implement
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue) ![Stack](https://img.shields.io/badge/Stack-Milvus_Lite_+_Gemini_Flash-orange) ![Status](https://img.shields.io/badge/Status-Research_Prototype-green)
 
-## 🚀 Key Features
+##  Key Features
 
 * ** Hybrid Search Architecture**: Fuses **Dense Vector Retrieval** (Multilingual-E5) with **Sparse Keyword Search** (BM25) to capture both semantic meaning and exact technical terms.
 * ** Cross-Lingual "Interpreter"**: Automatically detects Japanese queries, translates intent to English for high-precision retrieval, and answers in the user's native language.
@@ -45,7 +45,7 @@ project-root/
 │ └── content.pdf ← Place your document here
 ```
 
-⚠️ The file **must be named** `content.pdf`.
+ The file **must be named** `content.pdf`.
 
 This document will be processed, chunked, embedded, and indexed into Milvus Lite.
 
