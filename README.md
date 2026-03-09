@@ -8,19 +8,19 @@ Built to run efficiently on consumer hardware (2GB VRAM), this project implement
 
 ## 🚀 Key Features
 
-* **🧠 Hybrid Search Architecture**: Fuses **Dense Vector Retrieval** (Multilingual-E5) with **Sparse Keyword Search** (BM25) to capture both semantic meaning and exact technical terms.
-* **🌐 Cross-Lingual "Interpreter"**: Automatically detects Japanese queries, translates intent to English for high-precision retrieval, and answers in the user's native language.
-* **🧩 Smart "Bucket" Chunking**: A custom sliding-window strategy that respects sentence boundaries in both English (period-based) and Japanese (`。` based) to prevent context loss.
-* **⚡ Edge-Optimized**: Designed to run entirely on a laptop with <4GB VRAM using quantized models and Milvus Lite.
+* ** Hybrid Search Architecture**: Fuses **Dense Vector Retrieval** (Multilingual-E5) with **Sparse Keyword Search** (BM25) to capture both semantic meaning and exact technical terms.
+* ** Cross-Lingual "Interpreter"**: Automatically detects Japanese queries, translates intent to English for high-precision retrieval, and answers in the user's native language.
+* ** Smart "Bucket" Chunking**: A custom sliding-window strategy that respects sentence boundaries in both English (period-based) and Japanese (`。` based) to prevent context loss.
+* ** Edge-Optimized**: Designed to run entirely on a laptop with <4GB VRAM using quantized models and Milvus Lite.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **LLM**: Google Gemini 1.5 Flash (via API)
 * **Embeddings**: `intfloat/multilingual-e5-small` (SOTA for compact multilingual retrieval)
 * **Vector DB**: Milvus Lite (Serverless local vector storage)
 * **Framework**: Streamlit (Frontend), PyTorch (Backend)
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 * Python **3.12** is recommended.
@@ -28,7 +28,7 @@ Built to run efficiently on consumer hardware (2GB VRAM), this project implement
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/hybrid-rag-research.git](https://github.com/imchaul/Multilingual-RAG-Project.git)
+git clone https://github.com/imchaul/Multilingual-RAG-Project.git
 cd hybrid-rag-research
 ```
 
